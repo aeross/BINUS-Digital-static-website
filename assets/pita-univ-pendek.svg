@@ -1,0 +1,23 @@
+<svg id="pita-univ-pendek" xmlns="http://www.w3.org/2000/svg" width="41" height="75" viewBox="0 0 41 75">
+  <rect id="Rectangle-path" width="28" height="42" transform="translate(13 26)" fill="#afd7f4" opacity="0.6"/>
+  <rect id="Rectangle-path-2" data-name="Rectangle-path" width="28" height="14" transform="translate(0 14)" fill="#00a1e0"/>
+  <rect id="Rectangle-path-3" data-name="Rectangle-path" width="28" height="14" transform="translate(0 27)" fill="#76bde9" opacity="0.7"/>
+  <rect id="Rectangle-path-4" data-name="Rectangle-path" width="28" height="14" transform="translate(0 41)" fill="#afd7f4" opacity="0.4"/>
+  <rect id="Rectangle-path-5" data-name="Rectangle-path" width="14" height="14" transform="translate(27 27)" fill="#76bde9"/>
+  <rect id="Rectangle-path-6" data-name="Rectangle-path" width="14" height="14" transform="translate(27 54)" fill="#afd7f4" opacity="0.4"/>
+  <rect id="Rectangle-path-7" data-name="Rectangle-path" width="14" height="14" transform="translate(27 41)" fill="#76bde9" opacity="0.4"/>
+  <path id="Shape" d="M0,6.846a7,7,0,0,1,14,0Z" transform="translate(27 61.154)" fill="#fff" opacity="0.4"/>
+  <path id="Shape-2" data-name="Shape" d="M-.007-.179a7,7,0,0,1,7,7,7,7,0,0,1-7,7Z" transform="translate(0.007 27.179)" fill="#76bde9" opacity="0.7"/>
+  <path id="Shape-3" data-name="Shape" d="M6.6,13.821a7,7,0,0,1,0-14Z" transform="translate(20.403 27.179)" fill="#afd7f4" opacity="0.88"/>
+  <path id="Shape-4" data-name="Shape" d="M7,14.231a7,7,0,0,1,0-14Z" transform="translate(34 40.769)" fill="#fff" opacity="0.25"/>
+  <path id="Shape-5" data-name="Shape" d="M6.6,13.846a7,7,0,0,1,0-14Z" transform="translate(20.403 54.154)" fill="#fff" opacity="0.5"/>
+  <path id="Shape-6" data-name="Shape" d="M14-.154a7,7,0,0,1-7,7,7,7,0,0,1-7-7Z" transform="translate(27 68.154)" fill="#afd7f4" opacity="0.5"/>
+  <path id="Shape-7" data-name="Shape" d="M14-.261a7,7,0,0,1-7,7,7,7,0,0,1-7-7Z" transform="translate(27 27.261)" fill="#00a1e0" opacity="0.65"/>
+  <path id="Shape-8" data-name="Shape" d="M13.993-.261a7,7,0,0,1-7,7,7,7,0,0,1-7-7Z" transform="translate(0.007 27.261)" fill="#76bde9" opacity="0.7"/>
+  <path id="Shape-9" data-name="Shape" d="M14.5.108a7,7,0,0,1-14,0Z" transform="translate(13.504 40.892)" fill="#afd7f4" opacity="0.8"/>
+  <path id="Shape-10" data-name="Shape" d="M.5,6.923a7,7,0,0,1,14,0Z" transform="translate(13.504 34.077)" fill="#4cb3e6" opacity="0.65"/>
+  <path id="Shape-11" data-name="Shape" d="M.4.231a7,7,0,0,1,0,14Z" transform="translate(13.604 40.769)" fill="#fff" opacity="0.3"/>
+  <path id="Shape-12" data-name="Shape" d="M-.2-.154a7,7,0,0,1,7,7,7,7,0,0,1-7,7Z" transform="translate(27.201 54.154)" fill="#fff" opacity="0.25"/>
+  <path id="Shape-13" data-name="Shape" d="M.4-.154a7,7,0,0,1,0,14Z" transform="translate(13.604 54.154)" fill="#fff" opacity="0.3"/>
+  <path id="Shape-14" data-name="Shape" d="M-.007,14h27V28h14V0h-41Z" transform="translate(0.007)" fill="#008ed3"/>
+</svg>

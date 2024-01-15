@@ -1,0 +1,267 @@
+:root {
+    --light-1: #FFFFFF;
+    --light-2: #0000001F;
+    --light-3: #D8D8D8;
+    --light-4: #00000029;
+    --light-5: #00000033;
+    --dark-1: #00000080;
+    --dark-2: #5E5E5E;
+    --dark-3: #0D0D0D;
+    --dark-4: #000000;
+    --primary-1: #3CAFE0;
+    --primary-2: #4EB0E1;
+    --primary-3: #1185C7;
+    --primary-4: #028ED5;
+    --accent-1: #F3931B;
+    --accent-2: #F28901;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    /* for debugging */
+    /* outline: 1px solid red; */
+}
+
+/* Colours */
+
+/* Background colour */
+
+.bg-light-1 {
+    background-color: var(--light-1);
+}
+
+.bg-light-2 {
+    background-color: var(--light-2);
+}
+
+.bg-light-3 {
+    background-color: var(--light-3);
+}
+
+.bg-light-4 {
+    background-color: var(--light-4);
+}
+
+.bg-light-5 {
+    background-color: var(--light-5);
+}
+
+.bg-dark-1 {
+    background-color: var(--dark-1);
+}
+
+.bg-dark-2 {
+    background-color: var(--dark-2);
+}
+
+.bg-dark-3 {
+    background-color: var(--dark-3);
+}
+
+.bg-dark-4 {
+    background-color: var(--dark-4);
+}
+
+.bg-primary-1 {
+    background-color: var(--primary-1);
+}
+
+.bg-primary-2 {
+    background-color: var(--primary-2);
+}
+
+.bg-primary-3 {
+    background-color: var(--primary-3);
+}
+
+.bg-primary-4 {
+    background-color: var(--primary-4);
+}
+
+.bg-accent-1 {
+    background-color: var(--accent-1);
+}
+
+.bg-accent-2 {
+    background-color: var(--accent-2);
+}
+
+/* Text colour */
+
+.text-light-1 {
+    color: var(--light-1);
+}
+
+.text-light-2 {
+    color: var(--light-2);
+}
+
+.text-light-3 {
+    color: var(--light-3);
+}
+
+.text-light-4 {
+    color: var(--light-4);
+}
+
+.text-light-5 {
+    color: var(--light-5);
+}
+
+.text-dark-1 {
+    color: var(--dark-1);
+}
+
+.text-dark-2 {
+    color: var(--dark-2);
+}
+
+.text-dark-3 {
+    color: var(--dark-3);
+}
+
+.text-dark-4 {
+    color: var(--dark-4);
+}
+
+.text-primary-1 {
+    color: var(--primary-1);
+}
+
+.text-primary-2 {
+    color: var(--primary-2);
+}
+
+.text-primary-3 {
+    color: var(--primary-3);
+}
+
+.text-primary-4 {
+    color: var(--primary-4);
+}
+
+.text-accent-1 {
+    color: var(--accent-1);
+}
+
+.text-accent-2 {
+    color: var(--accent-2);
+}
+
+/* Layouts */
+
+.shadow {
+    box-shadow: 0px 0px 12px var(--light-4);
+}
+
+/* Navbar */
+
+.nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 1.75rem;
+    width: 16px;
+    height: 16px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: start;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--light-3);
+    padding: 0 0 1.5rem 1.5rem;
+    height: 120px;
+}
+
+.header .image-2 {
+    margin-top: 0.35rem;
+}
+
+/* Title */
+
+.title {
+    padding: 3rem;
+}
+
+.heading {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading .title-1 {
+    font-weight: 300;
+}
+
+.heading .title-2 {
+    font-weight: 800;
+}
+
+.heading-md {
+    font-size: 28px;
+}
+
+.heading-lg {
+    font-size: 32px;
+}
+
+/* banner */
+
+.banner {
+    position: relative;
+    height: 75vh;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -10;
+}
+
+.banner-interactives {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn-hover:hover {
+    cursor: pointer;
+}
+
+.btn-learn-more {
+    padding: 13px 22px;
+    border-radius: 24px;
+    font-weight: 600;
+    border: 0;
+}
