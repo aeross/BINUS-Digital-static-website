@@ -22,14 +22,14 @@
     </nav>
 
     <header class="header bg-light-1">
-        <div class="image-1"><img src="assets/pita-univ-pendek.svg" alt=""></div>
-        <div class="image-2"><img src="assets/Component 55 – 1.svg" alt=""></div>
+        <div class="image-1"><img src="assets/pita-univ-pendek.svg" alt="pita"></div>
+        <div class="image-2"><img src="assets/Component 55 – 1.svg" alt="binus-component"></div>
     </header>
 
     <main>
         <!-- title -->
         <div class="title">
-            <h1 class="heading heading-lg text-primary-1">
+            <h1 class="heading heading-md text-primary-1">
                 <span class="title-1">welcome to</span>
                 <span class="title-2">mass communication program</span>
             </h1>
@@ -38,10 +38,9 @@
         <!-- banner -->
         <div class="banner">
             <img class="banner-img" src="assets/Component 43 – 1.png" alt="">
-            <!-- <div class="banner-img"></div> -->
             <div class="banner-interactives">
-                <img class="btn-hover prev" src="assets/btn-prev.svg" alt="">
-                <img class="btn-hover next" src="assets/btn-next.svg" alt="">
+                <img class="btn-hover prev" id="prev" src="assets/btn-prev.svg" alt="">
+                <img class="btn-hover next" id="next" src="assets/btn-next.svg" alt="">
             </div>
             <div class="banner-btn">
                 <button class="btn-hover btn-learn-more bg-accent-1 text-light-1">
@@ -50,11 +49,116 @@
             </div>
         </div>
 
-        <!-- the two boxes in the middle idk how to call it -->
-        <div></div>
+        <!-- content -->
+        <div class="content">
+            <div class="content-1 shadow text-dark-2">
+                <img src="assets/55. GRADUATE PROFILE.png" alt="graduate-profile">
+                <div class="text">
+                    <h2 class="heading heading-lg">graduate profile</h2>
+                    <p>Our programs are designed to shape future leaders. Explore our programs below.</p>
+                </div>
+                <ul class="list">
+                    <li class="list-element">
+                        <div class="headline">Mastering Communcation: Crafting Proficient Graduates</div>
+                        <div class="bottom">September 13, 2013</div>
+                    </li>
+                    <li class="list-element">
+                        <div class="headline">Empowering Tomorrow's Communicators: The Graduate Profile</div>
+                        <div class="bottom">September 13, 2013</div>
+                    </li>
+                </ul>
+                <span class="view-more">View More ></span>
+            </div>
+
+            <div class="content-2 shadow text-light-1">
+                <img src="assets/icon career.png" alt="icon-career">
+                <div class="text">
+                    <h2 class="heading heading-lg">prospect career</h2>
+                    <p>Our programs are designed to shape future leaders. Explore our programs below.</p>
+                </div>
+                <ul class="list text-dark-2">
+                    <li class="list-element">
+                        Marketing Communication Specialist
+                    </li>
+                    <li class="list-element">
+                        Brand Strategy Specialist
+                    </li>
+                    <li class="list-element">
+                        Event Specialist
+                    </li>
+                    <li class="list-element">
+                        Media Planner Specialist
+                    </li>
+                    <li class="list-element">
+                        Brand Community Specialist
+                    </li>
+                </ul>
+                <span class="view-more">View More ></span>
+            </div>
+        </div>
     </main>
 
-    <footer></footer>
+    <!-- startegic partnership -->
+    <footer class="partnership text-dark-2">
+        <div class="partnership-top">
+            <img src="assets/07. PARTNERSHIP.png" alt="partnership">
+            <h2 class="heading heading-lg">strategic partnership</h2>
+            <p>to sustainably improve students academic and experience</p>
+        </div>
+
+        <div class="buttons">
+            <button class="tab selected" id="national-btn">National</button>
+            <button class="tab" id="international-btn">International</button>
+            <button class="tab" id="industry-btn">Industry</button>
+        </div>
+
+        <div id="national" class="partners hidden">
+            <div>
+                <img src="assets/groupe.png" alt="groupe">
+            </div>
+            <div>
+                <img src="assets/cau.png" alt="cau">
+            </div>
+            <div>
+                <img src="assets/cbs.png" alt="cbs">
+            </div>
+        </div>
+
+        <div id="international" class="partners">
+            <div>
+                <img src="assets/apu.png" alt="apu">
+            </div>
+            <div>
+                <img src="assets/beijing-uni.png" alt="beijing">
+            </div>
+            <div>
+                <img src="assets/bangkok-uni.png" alt="bangkok">
+            </div>
+            <div>
+                <img src="assets/bournemouth-uni.png" alt="bournemouth">
+            </div>
+            <div>
+                <img src="assets/cbs.png" alt="cbs">
+            </div>
+            <div>
+                <img src="assets/cau.png" alt="cau">
+            </div>
+        </div>
+
+        <div id="industry" class="partners hidden">
+            <div>
+                <img src="assets/Applachian.png" alt="Applachian">
+            </div>
+            <div>
+                <img src="assets/groupe.png" alt="groupe">
+            </div>
+            <div>
+                <img src="assets/lead-for-change.png" alt="lead-for-change">
+            </div>
+        </div>
+
+        <span class="text-primary-3 view-details">View Details ></span>
+    </footer>
 </body>
 
 </html>

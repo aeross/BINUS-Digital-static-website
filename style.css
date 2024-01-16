@@ -162,6 +162,10 @@
     box-shadow: 0px 0px 12px var(--light-4);
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* Navbar */
 
 .nav {
@@ -183,9 +187,9 @@
 .header {
     display: flex;
     justify-content: start;
-    gap: 1.5rem;
+    gap: 2rem;
     border-bottom: 1px solid var(--light-3);
-    padding: 0 0 1.5rem 1.5rem;
+    padding: 0 0 2rem 2rem;
     height: 120px;
 }
 
@@ -264,4 +268,156 @@
     border-radius: 24px;
     font-weight: 600;
     border: 0;
+}
+
+/* content */
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+    padding: 3rem 1.75rem;
+}
+
+.content>* {
+    border-radius: 16px;
+    width: 100%;
+
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.content .text {
+    padding: 0 12.5%;
+}
+
+.content .text>* {
+    margin: 1rem;
+}
+
+.content .list {
+    padding: 0;
+    text-align: left;
+}
+
+.content .content-1 .list {
+    margin: 5rem 0;
+}
+
+.content .list-element {
+    list-style-type: none;
+}
+
+.content .content-1 .list-element {
+    border-top: 1px solid var(--dark-2);
+}
+
+.content .content-1 .list-element>* {
+    margin: 1rem 0;
+}
+
+.content .content-1 .list-element .headline {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content .content-2 {
+    background: linear-gradient(0deg, var(--primary-2) 0%, vaR(--primary-4) 100%)
+}
+
+.content .content-2 .list {
+    margin: 3rem 0;
+    padding: 0 15%;
+}
+
+.content .content-2 .list-element {
+    border-radius: 9999px;
+    padding: 0.6rem 1.25rem;
+    background: var(--light-1);
+    margin: 1rem;
+}
+
+.content .view-more {
+    font-weight: 600;
+}
+
+.content .view-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Partnership */
+
+.partnership {
+    margin: 4.5rem 0;
+    padding: 0 2rem;
+}
+
+.partnership-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnership .partnership-top img {
+    height: 100px;
+    width: 100px;
+}
+
+.partnership .buttons {
+    text-align: center;
+    margin: 2rem 0;
+    border-bottom: 1px solid var(--dark-2);
+}
+
+.partnership .buttons .tab {
+    text-transform: uppercase;
+    background: none;
+    border: 0;
+    color: var(--dark-2);
+    font-weight: 600;
+    margin: 0 14px;
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+.partnership .buttons .tab:hover {
+    cursor: pointer;
+}
+
+
+.partnership .buttons .selected {
+    color: var(--accent-2);
+    border-bottom: 5px solid var(--accent-2);
+}
+
+.partnership .partners {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 25%;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.partnership .partners>* {
+    width: 130px;
+    height: 130px;
+}
+
+.partnership .partners img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.partnership .view-details {
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.partnership .view-details:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
