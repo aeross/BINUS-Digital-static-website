@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300;400;700&family=Roboto&family=Rubik&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -37,10 +38,12 @@
 
         <!-- banner -->
         <div class="banner">
-            <img class="banner-img" src="assets/Component 43 – 1.png" alt="">
+            <img class="banner-img hidden" src="assets/Component 43 – 1.png" alt="LoFi-computer-0">
+            <img class="banner-img hidden" src="assets/LoFi Computer 1.png" alt="LoFi-computer-1">
+            <img class="banner-img" src="assets/LoFi Computer 2.webp" alt="LoFi-computer-2">
             <div class="banner-interactives">
-                <img class="btn-hover prev" id="prev" src="assets/btn-prev.svg" alt="">
-                <img class="btn-hover next" id="next" src="assets/btn-next.svg" alt="">
+                <img class="btn-hover prev" id="prev" src="assets/btn-prev.svg" alt="button-prev">
+                <img class="btn-hover next" id="next" src="assets/btn-next.svg" alt="button-next">
             </div>
             <div class="banner-btn">
                 <button class="btn-hover btn-learn-more bg-accent-1 text-light-1">
@@ -112,7 +115,7 @@
             <button class="tab" id="industry-btn">Industry</button>
         </div>
 
-        <div id="national" class="partners hidden">
+        <div id="national" class="partners">
             <div>
                 <img src="assets/groupe.png" alt="groupe">
             </div>
@@ -124,7 +127,7 @@
             </div>
         </div>
 
-        <div id="international" class="partners">
+        <div id="international" class="partners hidden">
             <div>
                 <img src="assets/apu.png" alt="apu">
             </div>
